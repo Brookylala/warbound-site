@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vote for Warbound and support the Minecraft nations and kingdoms server.">
+    <meta name="theme-color" content="#080d13">
+    <title>Vote | Warbound</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site-config.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="site-logo" aria-label="Warbound home">
+                <img src="assets/images/logo.png" alt="Warbound">
+                <span class="logo-fallback" aria-hidden="true">WARBOUND</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-menu" id="primary-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#features" class="nav-link">Features</a>
+                <a href="index.html#world" class="nav-link">World</a>
+                <a href="index.html#news" class="nav-link">News</a>
+                <a href="#" class="nav-link config-link" data-config-url="mapUrl">Map</a>
+                <a href="vote.html" class="nav-link active">Vote</a>
+                <a href="#" class="nav-link config-link" data-config-url="discordUrl">Discord</a>
+            </div>
+
+            <button class="server-pill copy-ip" type="button" aria-label="Copy server IP">
+                <span class="server-pill-label">Join server</span>
+                <strong data-config-text="serverIp">play.warbound.net</strong>
+                <span class="copy-mark" aria-hidden="true">⧉</span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content" class="subpage-main">
+        <section class="subpage-hero">
+            <div class="subpage-backdrop" data-hero-image="assets/images/hero-background.png"></div>
+            <div class="subpage-overlay"></div>
+            <div class="page-shell subpage-hero-content reveal">
+                <p class="eyebrow">Support the realm</p>
+                <h1><span>Vote for</span> Warbound</h1>
+                <p>Every vote helps new players discover the frontier and supports the continued growth of the server.</p>
+            </div>
+        </section>
+
+        <section class="section page-shell vote-page" aria-labelledby="vote-title">
+            <div class="vote-intro reveal">
+                <div>
+                    <p class="eyebrow">Daily rewards</p>
+                    <h2 id="vote-title">Choose a vote site</h2>
+                    <p>Vote on each available listing, then return in game to claim your reward. Links can be changed at any time in <code>site-config.js</code>.</p>
+                </div>
+
+                <aside class="mini-status">
+                    <span class="status-dot is-loading" data-status-dot aria-hidden="true"></span>
+                    <div><small data-status-text>Checking server...</small><strong><span data-status-current>...</span> / <span data-status-max>...</span> online</strong></div>
+                </aside>
+            </div>
+
+            <div class="vote-grid" id="vote-links">
+                <a class="vote-card config-link" href="#">
+                    <span class="vote-card-number">01</span><span class="vote-card-icon">✦</span><strong>Vote Site 1</strong><small>Open voting page</small><span class="vote-arrow">→</span>
+                </a>
+                <a class="vote-card config-link" href="#">
+                    <span class="vote-card-number">02</span><span class="vote-card-icon">✦</span><strong>Vote Site 2</strong><small>Open voting page</small><span class="vote-arrow">→</span>
+                </a>
+                <a class="vote-card config-link" href="#">
+                    <span class="vote-card-number">03</span><span class="vote-card-icon">✦</span><strong>Vote Site 3</strong><small>Open voting page</small><span class="vote-arrow">→</span>
+                </a>
+            </div>
+
+            <div class="vote-help-grid">
+                <article class="help-panel reveal">
+                    <span class="help-number">1</span>
+                    <div><h3>Open a site</h3><p>Select any vote card above and sign in using your Minecraft username.</p></div>
+                </article>
+                <article class="help-panel reveal">
+                    <span class="help-number">2</span>
+                    <div><h3>Cast your vote</h3><p>Complete the vote on every available server listing for the best reward.</p></div>
+                </article>
+                <article class="help-panel reveal">
+                    <span class="help-number">3</span>
+                    <div><h3>Claim in game</h3><p>Join Warbound and receive your configured vote reward automatically.</p></div>
+                </article>
+            </div>
+
+            <div class="vote-cta reveal">
+                <div>
+                    <p class="panel-label">Ready to play?</p>
+                    <h2 data-config-text="serverIp">play.warbound.net</h2>
+                    <p>Copy the server address and join the frontier after voting.</p>
+                </div>
+                <button class="btn btn-primary copy-ip" type="button">Copy server IP</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-shell footer-top">
+            <div class="footer-brand">
+                <a href="index.html" class="site-logo footer-logo" aria-label="Warbound home">
+                    <img src="assets/images/logo.png" alt="Warbound">
+                    <span class="logo-fallback" aria-hidden="true">WARBOUND</span>
+                </a>
+                <p>A medieval Minecraft experience built around survival, nations, diplomacy and war.</p>
+            </div>
+            <div class="footer-column"><h2>Explore</h2><a href="index.html">Home</a><a href="index.html#features">Features</a><a href="index.html#news">News</a><a href="vote.html">Vote</a></div>
+            <div class="footer-column"><h2>Community</h2><a href="#" class="config-link" data-config-url="discordUrl">Discord</a><a href="#" class="config-link" data-config-url="mapUrl">Live map</a><button class="footer-button copy-ip" type="button">Copy server IP</button></div>
+            <div class="footer-server"><p class="panel-label">Server address</p><button class="footer-ip copy-ip" type="button"><strong data-config-text="serverIp">play.warbound.net</strong><span>Click to copy</span></button></div>
+        </div>
+        <div class="page-shell footer-bottom"><p>&copy; <span id="copyright-year"></span> <span data-config-text="serverName">Warbound</span>. Not affiliated with Mojang or Microsoft.</p>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

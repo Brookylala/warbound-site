@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Warbound is a medieval Minecraft survival, nations, kingdoms, PvP, and raiding server.">
+    <meta name="theme-color" content="#080d13">
+    <title>Warbound | Rule the Frontier</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site-config.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="site-logo" aria-label="Warbound home">
+                <img src="assets/images/logo.png" alt="Warbound">
+                <span class="logo-fallback" aria-hidden="true">WARBOUND</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-menu" id="primary-nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#world" class="nav-link">World</a>
+                <a href="#news" class="nav-link">News</a>
+                <a href="#" class="nav-link config-link" data-config-url="mapUrl">Map</a>
+                <a href="vote.html" class="nav-link">Vote</a>
+                <a href="#" class="nav-link config-link" data-config-url="discordUrl">Discord</a>
+            </div>
+
+            <button class="server-pill copy-ip" type="button" aria-label="Copy server IP">
+                <span class="server-pill-label">Join server</span>
+                <strong data-config-text="serverIp">play.warbound.net</strong>
+                <span class="copy-mark" aria-hidden="true">⧉</span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero section-anchor" aria-labelledby="hero-title">
+            <div class="hero-backdrop" data-hero-image="assets/images/hero-background.png"></div>
+            <div class="hero-vignette"></div>
+            <div class="hero-grid"></div>
+
+            <div class="hero-content page-shell">
+                <div class="hero-copy reveal">
+                    <div class="hero-kicker">
+                        <span class="status-dot is-loading" data-status-dot aria-hidden="true"></span>
+                        <span data-status-text>Checking server...</span>
+                        <span class="kicker-divider"></span>
+                        <span data-config-text="serverVersion">Java 1.21.1</span>
+                    </div>
+
+                    <p class="eyebrow">Medieval survival • nations • warfare</p>
+                    <h1 id="hero-title"><span>Rule the</span> Frontier</h1>
+                    <p class="hero-subtitle">Found a nation, raise a kingdom, fortify your land and fight for a legacy in a handcrafted frontier shaped by alliances, trade and war.</p>
+
+                    <div class="button-row">
+                        <button class="btn btn-primary copy-ip" type="button">
+                            <span class="btn-icon" aria-hidden="true">⚔</span>
+                            Play now
+                        </button>
+                        <a class="btn btn-secondary" href="#features">Explore features</a>
+                        <a class="btn btn-ghost config-link" href="#" data-config-url="discordUrl">Join Discord</a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div><strong>Persistent</strong><span>Long-term world</span></div>
+                        <div><strong>Community</strong><span>Player-led nations</span></div>
+                        <div><strong>Competitive</strong><span>Meaningful warfare</span></div>
+                    </div>
+                </div>
+
+                <aside class="status-card reveal" aria-label="Server status">
+                    <div class="status-card-top">
+                        <div>
+                            <p class="panel-label">Server status</p>
+                            <h2 data-status-text>Checking server...</h2>
+                        </div>
+                        <div class="status-orb">
+                            <span class="status-dot is-loading" data-status-dot aria-hidden="true"></span>
+                        </div>
+                    </div>
+
+                    <div class="player-meter" aria-label="Player capacity">
+                        <div class="meter-head">
+                            <span>Players online</span>
+                            <strong><span data-status-current>...</span> / <span data-status-max>...</span></strong>
+                        </div>
+                        <div class="meter-track"><span data-player-meter></span></div>
+                    </div>
+
+                    <dl class="status-list">
+                        <div>
+                            <dt>Version</dt>
+                            <dd data-status-version>Checking...</dd>
+                        </div>
+                        <div>
+                            <dt>Address</dt>
+                            <dd data-config-text="serverIp">play.warbound.net</dd>
+                        </div>
+                    </dl>
+
+                    <button class="btn btn-primary full-width copy-ip" type="button">
+                        Copy server IP <span aria-hidden="true">⧉</span>
+                    </button>
+                    <p class="status-note">Java Edition • Click to copy and join</p>
+                </aside>
+            </div>
+
+            <div class="hero-bottom-fade"></div>
+        </section>
+
+        <section class="stat-rail" aria-label="Warbound highlights">
+            <div class="page-shell stat-rail-grid">
+                <div><span class="stat-icon" aria-hidden="true">◈</span><strong data-status-current>...</strong><small>Online now</small></div>
+            </div>
+        </section>
+
+        <section class="section page-shell section-anchor" id="features" aria-labelledby="features-title">
+            <div class="section-heading centered reveal">
+                <p class="eyebrow">Build your legacy</p>
+                <h2 id="features-title">A frontier worth fighting for</h2>
+                <p>Warbound blends long-term survival with player-driven politics, organised warfare and a world built to reward ambition.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card feature-card-large reveal">
+                    <div class="feature-number">01</div>
+                    <div class="feature-icon" aria-hidden="true">♜</div>
+                    <div>
+                        <p class="card-kicker">Claim. Grow. Govern.</p>
+                        <h3>Nations &amp; Kingdoms</h3>
+                        <p>Create a settlement, recruit citizens and forge a kingdom with its own borders, identity and alliances.</p>
+                    </div>
+                    <span class="card-edge" aria-hidden="true"></span>
+                </article>
+
+                <article class="feature-card reveal">
+                    <div class="feature-number">02</div>
+                    <div class="feature-icon" aria-hidden="true">⚔</div>
+                    <div>
+                        <p class="card-kicker">Strategy over chaos</p>
+                        <h3>War &amp; Raiding</h3>
+                        <p>Scout defenses, prepare sieges and fight wars where planning matters as much as raw PvP skill.</p>
+                    </div>
+                    <span class="card-edge" aria-hidden="true"></span>
+                </article>
+
+                <article class="feature-card reveal">
+                    <div class="feature-number">03</div>
+                    <div class="feature-icon" aria-hidden="true">◆</div>
+                    <div>
+                        <p class="card-kicker">Trade and progress</p>
+                        <h3>Survival Economy</h3>
+                        <p>Build wealth through gathering, trade and industry in an economy designed for players, towns and empires.</p>
+                    </div>
+                    <span class="card-edge" aria-hidden="true"></span>
+                </article>
+
+                <article class="feature-card feature-card-wide reveal">
+                    <div class="feature-number">04</div>
+                    <div class="feature-icon" aria-hidden="true">✦</div>
+                    <div>
+                        <p class="card-kicker">Always something ahead</p>
+                        <h3>Events &amp; Seasons</h3>
+                        <p>Take part in fortress battles, arena nights, seasonal objectives and community events that keep the world moving.</p>
+                    </div>
+                    <span class="card-edge" aria-hidden="true"></span>
+                </article>
+            </div>
+        </section>
+
+        <section class="world-section section section-anchor" id="world" aria-labelledby="world-title">
+            <div class="page-shell world-layout">
+                <div class="world-copy reveal">
+                    <p class="eyebrow">Your story starts here</p>
+                    <h2 id="world-title">From lone survivor to ruler</h2>
+                    <p class="lead">Every kingdom begins with a single block. Gather resources, secure your first claim and decide what kind of power you want to become.</p>
+
+                    <div class="world-steps">
+                        <article>
+                            <span>1</span>
+                            <div><h3>Settle</h3><p>Find your ground, build a home and establish your first foothold.</p></div>
+                        </article>
+                        <article>
+                            <span>2</span>
+                            <div><h3>Unite</h3><p>Recruit allies, form a nation and build an economy that can sustain it.</p></div>
+                        </article>
+                        <article>
+                            <span>3</span>
+                            <div><h3>Conquer</h3><p>Defend your borders, challenge rivals and leave a permanent mark on the map.</p></div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="world-visual reveal" aria-label="Decorative Warbound kingdom panel">
+                    <div class="visual-sky"></div>
+                    <div class="visual-mountain mountain-one"></div>
+                    <div class="visual-mountain mountain-two"></div>
+                    <div class="visual-castle">
+                        <span class="tower tower-left"></span>
+                        <span class="tower tower-center"></span>
+                        <span class="tower tower-right"></span>
+                        <span class="castle-wall"></span>
+                    </div>
+                    <div class="visual-banner"><span>W</span></div>
+                    <div class="visual-caption"><small>Warbound Frontier</small><strong>Build something worth defending.</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section page-shell section-anchor" id="news" aria-labelledby="news-title">
+            <div class="section-heading split-heading reveal">
+                <div>
+                    <p class="eyebrow">From the war room</p>
+                    <h2 id="news-title">Latest updates</h2>
+                </div>
+                <a class="text-link config-link" href="#" data-config-url="discordUrl">Follow announcements <span aria-hidden="true">→</span></a>
+            </div>
+
+            <div class="community-grid">
+                <div class="news-list" id="news-list" aria-live="polite"></div>
+
+            </div>
+        </section>
+
+        <section class="join-section section" aria-labelledby="join-title">
+            <div class="join-glow"></div>
+            <div class="page-shell join-content reveal">
+                <div>
+                    <p class="eyebrow">The frontier is waiting</p>
+                    <h2 id="join-title">Forge your legacy</h2>
+                    <p>Copy the IP, rally your allies and begin the rise of your kingdom.</p>
+                </div>
+                <div class="join-actions">
+                    <button class="btn btn-primary copy-ip" type="button">Play at <span data-config-text="serverIp">play.warbound.net</span></button>
+                    <a class="btn btn-ghost config-link" href="#" data-config-url="discordUrl">Join Discord</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-shell footer-top">
+            <div class="footer-brand">
+                <a href="#home" class="site-logo footer-logo" aria-label="Warbound home">
+                    <img src="assets/images/logo.png" alt="Warbound">
+                    <span class="logo-fallback" aria-hidden="true">WARBOUND</span>
+                </a>
+                <p>A medieval Minecraft experience built around survival, nations, diplomacy and war.</p>
+            </div>
+
+            <div class="footer-column">
+                <h2>Explore</h2>
+                <a href="#features">Features</a>
+                <a href="#world">How it works</a>
+                <a href="#news">News</a>
+                <a href="vote.html">Vote</a>
+            </div>
+
+            <div class="footer-column">
+                <h2>Community</h2>
+                <a href="#" class="config-link" data-config-url="discordUrl">Discord</a>
+                <a href="#" class="config-link" data-config-url="mapUrl">Live map</a>
+                <a href="#" class="config-link" data-config-url="storeUrl">Store</a>
+                <button class="footer-button copy-ip" type="button">Copy server IP</button>
+            </div>
+
+            <div class="footer-server">
+                <p class="panel-label">Server address</p>
+                <button class="footer-ip copy-ip" type="button">
+                    <strong data-config-text="serverIp">play.warbound.net</strong>
+                    <span>Click to copy</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="page-shell footer-bottom">
+            <p>&copy; <span id="copyright-year"></span> <span data-config-text="serverName">Warbound</span>. Not affiliated with Mojang or Microsoft.</p>
+        </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
